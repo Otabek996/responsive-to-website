@@ -1,0 +1,15 @@
+/*==================== VARIABLES CSS ====================*/
+:root {
+    /*========== Colors ==========*/
+
+    /*========== Font and typography ==========*/
+    --body-font: 'Space Mono', sans-serif;
+
+    /*========== Font size ==========*/
+
+    /*========== Line height ==========*/
+
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-bold: 700;
+}
