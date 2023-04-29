@@ -1,1 +1,36 @@
 /*==================== HOME ====================*/
+.home__container {
+    display: flex;
+    align-items: center;
+    margin-top: 2.5rem;
+}
+
+.home__title {
+    font-size: 3rem;
+    line-height: 62px;
+    font-weight: var(--font-bold);
+    letter-spacing: 3px;
+    margin-bottom: 1rem;
+}
+
+.home__subtitle {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: var(--font-bold);
+}
+
+.home__description {
+    font-size: .875rem;
+    font-weight: var(--font-regular);
+    line-height: 24px;
+    margin-top: 2.5rem;
+}
+
+.home__description img {
+    height: 18px;
+    margin-right: 5px;
+}
+
+.home__img {
+    margin: 0 auto;
+}
