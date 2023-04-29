@@ -1,0 +1,38 @@
+/*==================== SIDEBAR ====================*/
+.sidebar {
+    width: 8rem;
+    height: 100%;
+}
+
+.sidebar__logo {
+    padding-bottom: 0.5rem;
+}
+
+.logo_img {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: var(--font-regular);
+    letter-spacing: 1.5px;
+    color: var(--text-color);
+}
+
+.logo_img .logo_letter_second {
+    transition: all 0.2s ease-in;
+}
+
+.logo_img:hover .logo_letter_second {
+    color: var(--hover-color);
+}
+
+.social__networks {
+    margin-top: 11rem;
+}
+
+.network__box {
+    margin-bottom: 10px;
+}
+
+.network__box a {
+    font-size: 28px;
+    color: var(--text-color);
+}

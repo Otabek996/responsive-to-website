@@ -32,8 +32,8 @@ ul, li {
 
 .app__container {
     display: flex;
-    align-items: center;
     max-width: 73rem;
+    /* height: calc(70.4vh - 8rem); */
     margin: 0 auto;
     background: var(--container-color);
     box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
