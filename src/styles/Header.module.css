@@ -21,7 +21,7 @@
     padding: 4px 8px;
     color: var(--text-color);
     background: transparent;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
     border-radius: 5px;
 }
 
@@ -43,11 +43,11 @@
     border-radius: 50%;
     cursor: pointer;
     background: transparent;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
 }
 
 .theme_toggle span i {
     color: var(--text-color);
     vertical-align: -0.125em;
-    transition: all 0.5s ease-in;
+    transition: all 0.2s ease-in;
 }
