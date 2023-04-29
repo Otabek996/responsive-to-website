@@ -19,9 +19,9 @@
     text-align: center;
     text-transform: capitalize;
     padding: 4px 8px;
-    color: var(--dark-color);
+    color: var(--text-color);
     background: transparent;
-    transition: all 0.2s ease-in;
+    transition: all 0.5s ease-in;
     border-radius: 5px;
 }
 
@@ -32,7 +32,7 @@
 }
 
 .nav__link:hover {
-    background: var(--dark-hover);
+    background: var(--hover-color);
     box-shadow: 0 1rem 2rem rgba(43, 41, 41, .4);
 }
 
@@ -43,10 +43,11 @@
     border-radius: 50%;
     cursor: pointer;
     background: transparent;
-    transition: all 0.2s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .theme_toggle span i {
-    color: var(--dark-color);
+    color: var(--text-color);
     vertical-align: -0.125em;
+    transition: all 0.5s ease-in;
 }

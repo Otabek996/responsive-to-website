@@ -7,8 +7,9 @@
 
 body {
     font-family: var(--body-font);
-    color: var(--dark-color);
-    background: var(--dark-bg);
+    color: var(--text-color);
+    background: var(--background-color);
+    transition: all 0.2s ease-in;
 }
 
 img {
@@ -34,20 +35,13 @@ ul, li {
     align-items: center;
     max-width: 73rem;
     margin: 0 auto;
-    background: var(--dark-con);
+    background: var(--container-color);
     box-shadow: 0 25px 50px -12px rgba(0,0,0,.25);
     border-radius: 20px;
     padding: 2rem;
+    transition: all 0.2s ease-in;
 }
 
 .main {
     width: 100%;
-}
-
-.bg_light {
-
-}
-
-.container_light {
-
 }

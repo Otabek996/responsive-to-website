@@ -4,11 +4,21 @@ import { Link } from 'react-router-dom';
 import styles from '../../styles/Header.module.css';
 
 import { ROUTES } from "../../utils/routes";
+import { useTheme } from "../../utils/use-theme";
 
 const Header = () => {
-  const changeTheme = (e) => {
-    console.log(`Hello - ${e.currentTarget.className}`);
-  }
+  // Theme Change
+  const { theme, setTheme } = useTheme();
+
+  const changeTheme = () => {
+    theme === "light" ? setTheme("dark") : setTheme("light");
+  };
+
+  // Theme Icon Change
+  let themeIcon = "sun";
+  if (theme === "light") {
+    themeIcon = "moon";
+  } else themeIcon = "sun";
 
   return (
     <header className={styles.header}>
@@ -31,8 +41,7 @@ const Header = () => {
                 onClick={changeTheme}
               >
                 <span>
-                  <i className="ri-sun-fill"></i>
-                  {/* <i class="ri-moon-fill"></i> */}
+                  <i className={`ri-${themeIcon}-fill`} id="theme-icon"></i>
                 </span>
               </button>
             </li>
