@@ -28,6 +28,12 @@ const Sidebar = () => {
               <i class="ri-instagram-line"></i>
             </a>
           </div>
+
+          <div className={styles.network__box}>
+            <a rel="noreferrer" href="https://t.me/Otabek996/" target='_blank'>
+              <i class="ri-telegram-fill"></i>
+            </a>
+          </div>
         </div>
       </div>
     </section>
