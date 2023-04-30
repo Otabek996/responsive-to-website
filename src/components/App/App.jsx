@@ -16,7 +16,7 @@ const App = () => {
         <main className="main">
           <Header />
           <AppRoutes />
-          <Footer />
+          {/* <Footer /> */}
         </main>  
       </div>
     </div>
