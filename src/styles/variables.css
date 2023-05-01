@@ -19,6 +19,9 @@
     --text-color: #f6f5f6;
     --container-color: #232323;
     --hover-color: #94A8B3;
+    --border-color: #6262623c;
+    --background-card-color: #5353532b;
+    --btn-border-color: #626262;
 }
 
 :root[data-theme = "light"] {
@@ -28,4 +31,7 @@
     --text-color: #58595B;
     --container-color: #e9e9e9;
     --hover-color: #dbeaf1;
+    --border-color: #cdcfd286;
+    --background-card-color: #dbd9d956;
+    --btn-border-color: #bdbdbd;
 }

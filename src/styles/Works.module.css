@@ -1,0 +1,22 @@
+/*==================== WORKS ====================*/
+.works__container {
+    padding-top: 1.5rem;
+}
+
+.works__title {
+    font-size: 1.5rem;
+    font-weight: var(--font-bold);
+}
+
+.border {
+    margin: 1rem 0 2rem 0;
+    border: 1px solid var(--border-color);
+    border-radius: 1px;
+}
+
+.works__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
