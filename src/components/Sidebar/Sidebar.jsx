@@ -19,19 +19,19 @@ const Sidebar = () => {
         <div className={styles.social__networks}>
           <div className={styles.network__box}>
             <a rel="noreferrer" href="https://github.com/Otabek996" target='_blank'>
-              <i class="ri-github-fill"></i>
+              <i className="ri-github-fill"></i>
             </a>
           </div>
 
           <div className={styles.network__box}>
             <a rel="noreferrer" href="https://www.instagram.com/0tabek.t/" target='_blank'>
-              <i class="ri-instagram-line"></i>
+              <i className="ri-instagram-line"></i>
             </a>
           </div>
 
           <div className={styles.network__box}>
             <a rel="noreferrer" href="https://t.me/Otabek996/" target='_blank'>
-              <i class="ri-telegram-fill"></i>
+              <i className="ri-telegram-fill"></i>
             </a>
           </div>
         </div>
