@@ -16,7 +16,7 @@ const Works = () => {
 
         <div className={styles.border}></div>
 
-        <div className={styles.works__box}>
+        <div className={styles.works__content}>
           <Card
             img={HOMERUN}
             title="Homerun"
