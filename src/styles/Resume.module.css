@@ -22,9 +22,9 @@
 
 .tech__box_title {
     font-style: italic;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: var(--font-regular);
-    line-height: 18px;
+    line-height: 1.125rem;
     margin-bottom: 2.5rem;
 }
 
@@ -32,7 +32,7 @@
     width: 4rem;
     display: inline-block;
     text-align: center;
-    margin-right: 25px;
+    margin-right: 1.5625rem;
     margin-bottom: 0.5rem;
 }
 

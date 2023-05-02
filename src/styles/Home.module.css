@@ -7,28 +7,28 @@
 
 .home__title {
     font-size: 3rem;
-    line-height: 62px;
+    line-height: 3.875rem;
     font-weight: var(--font-bold);
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
     margin-bottom: 1rem;
 }
 
 .home__subtitle {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     font-weight: var(--font-bold);
 }
 
 .home__description {
     font-size: .875rem;
     font-weight: var(--font-regular);
-    line-height: 24px;
+    line-height: 1.5rem;
     margin-top: 2.5rem;
 }
 
 .home__description img {
-    height: 18px;
-    margin-right: 5px;
+    height: 1.125rem;
+    margin-right: 0.3125rem;
 }
 
 .home__img {
