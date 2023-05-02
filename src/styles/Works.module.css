@@ -14,7 +14,7 @@
     border-radius: 1px;
 }
 
-.works__box {
+.works__content {
     display: flex;
     flex-direction: column;
     align-items: center;
