@@ -2,27 +2,25 @@ import React from 'react';
 
 import styles from '../../styles/Card.module.css';
 
-import WEBONE from '../../images/logoipsum-website.png'
-
-const Card = () => {
+const Card = (props) => {
   return (
     <article className={styles.card}>
         <div className={styles.card__img}>
-            <img src={WEBONE} alt="" />
+            <img src={props.img} alt="" />
         </div>
 
         <div className={styles.card__info}>
-            <h2 className={styles.card__title}>Web site title</h2>
-            <p className={styles.card__description}>Description</p>
+            <h2 className={styles.card__title}>{props.title}</h2>
+            <p className={styles.card__description}>{props.description}</p>
 
             <div className={styles.card__btn}>
-                <form action="">
+                <a href={props.linkToWebsite} target='_blank' rel="noreferrer">
                     <button className={styles.card__btn_link} type='submit'>Visit Website</button>
-                </form>
+                </a>
 
-                <form action="">
+                <a href={props.linkToCode} target='_blank' rel="noreferrer">
                     <button className={styles.card__btn_link} type='submit'>Code</button>
-                </form>
+                </a>
             </div>
         </div>
     </article>
