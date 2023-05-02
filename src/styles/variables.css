@@ -22,6 +22,7 @@
     --border-color: #6262623c;
     --background-card-color: #5353532b;
     --btn-border-color: #626262;
+    --techs-box-color: #7979796e;
 }
 
 :root[data-theme = "light"] {
@@ -34,4 +35,5 @@
     --border-color: #cdcfd286;
     --background-card-color: #dbd9d956;
     --btn-border-color: #bdbdbd;
+    --techs-box-color: #a3a3a3af;
 }
