@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import styles from '../../styles/Resume.module.css';
 
@@ -80,7 +79,7 @@ const Resume = () => {
           </div>
 
           <div className={styles.tech__box}>
-            <h2 className={styles.tech__box_title}>Others ... and more!</h2>
+            <h2 className={styles.tech__box_title}>Others techs</h2>
 
             <div className={styles.techs}>
               <div className={styles.tech}>
@@ -116,4 +115,4 @@ const Resume = () => {
   )
 };
 
-export default Resume
+export default Resume;

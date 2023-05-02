@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <article className={styles.card}>
         <div className={styles.card__img}>
-            <img src={props.img} alt="" />
+            <img src={props.img} alt="websites" />
         </div>
 
         <div className={styles.card__info}>
@@ -25,6 +25,6 @@ const Card = (props) => {
         </div>
     </article>
   )
-}
+};
 
-export default Card
+export default Card;

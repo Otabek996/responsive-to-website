@@ -44,6 +44,6 @@ const Works = () => {
       </div>
     </section>
   )
-}
+};
 
-export default Works
+export default Works;
