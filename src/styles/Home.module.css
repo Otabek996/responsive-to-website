@@ -6,23 +6,23 @@
 }
 
 .home__title {
-    font-size: 3rem;
-    line-height: 3.875rem;
+    font-size: var(--font-size-biggest);
+    line-height: var(--line-height-biggest);
     font-weight: var(--font-bold);
     letter-spacing: 0.1875rem;
     margin-bottom: 1rem;
 }
 
 .home__subtitle {
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: var(--font-size-normal);
+    line-height: var(--line-height-normal);
     font-weight: var(--font-bold);
 }
 
 .home__description {
-    font-size: .875rem;
+    font-size: var(--font-size-smaller);
     font-weight: var(--font-regular);
-    line-height: 1.5rem;
+    line-height: var(--line-height-normal);
     margin-top: 2.5rem;
 }
 

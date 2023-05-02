@@ -32,7 +32,7 @@
 }
 
 .card__description {
-    font-size: 1rem;
+    font-size: var(--font-size-normal);
     padding: 0.625rem 0;
     border-top: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
@@ -47,8 +47,8 @@
 }
 
 .card__btn_link {
-    font-size: 0.9375rem;
-    line-height: 1.25rem;
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
     font-weight: var(--font-regular);
     color: var(--text-color);
     background: transparent;
