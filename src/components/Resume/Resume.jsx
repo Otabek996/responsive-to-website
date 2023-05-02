@@ -4,17 +4,17 @@ import { Link } from 'react-router-dom';
 import styles from '../../styles/Resume.module.css';
 
 import HTML from '../../images/html.png';
-import CSS from '../../images/css.png';
+import CSS from '../../images/css.svg';
 import SASS from '../../images/sass.png';
 import BOOTSTRAP from '../../images/bootstrap.png';
 import JS from '../../images/js.png';
 import REACT from '../../images/react.png';
-import TYPESCRIPT from '../../images/typescript.png';
+import TYPESCRIPT from '../../images/typescript.svg';
 import NEXTJS from '../../images/next-js.svg';
-import GITHUB from '../../images/github.avif';
+import GITHUB from '../../images/github.svg';
 import GIT from '../../images/git.png';
 import NPM from '../../images/npm.avif';
-import NETLIFY from '../../images/netlify.avif';
+import NETLIFY from '../../images/netlify.svg';
 
 const Resume = () => {
   return (
