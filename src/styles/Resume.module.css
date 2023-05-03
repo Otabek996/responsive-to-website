@@ -50,3 +50,35 @@
     filter: none;
     -webkit-filter: none;
 }
+
+.resume__section {
+    margin-top: 1rem;   
+}
+
+.btn__cv {
+    background: transparent;
+    padding: 0.3125rem 0.625rem;
+    border-radius: 8px;
+    border: 2px solid var(--btn-border-color);
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+}
+
+.btn__cv:hover {
+    background: var(--hover-color);
+}
+
+.btn__cv a {
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
+    font-weight: var(--font-regular);
+    color: var(--text-color);
+}
+
+.btn__cv_icon {
+    font-size: var(--font-size-small);
+    line-height: var(--line-height-small);
+    font-weight: var(--font-regular);
+    color: var(--text-color);
+    margin-left: 5px;
+}
