@@ -28,7 +28,7 @@ const Header = () => {
             <li className={styles.nav__item}>
               <a className={styles.nav__link} href="mailto:otabek996@gmail.com">
                 <i className="ri-mail-fill"></i>
-                <span>otabek996@gmail.com</span>
+                <span>otabek996996@gmail.com</span>
               </a>
             </li>
 
