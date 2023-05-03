@@ -7,6 +7,7 @@ import Card from '../Card/Card';
 import INSTABOTS from '../../images/instabots-website.png';
 import HOMERUN from '../../images/homerun-website.png';
 import LOGOIPSUM from '../../images/logoipsum-website.png';
+import TO from '../../images/to-website.png';
 
 const Works = () => {
   return (
@@ -22,7 +23,7 @@ const Works = () => {
             title="Homerun"
             description="Responsive website using HTML CSS Sass & Bootstrap."
             linkToWebsite="https://incomparable-khapse-0462f1.netlify.app/"
-            linkToCode="https://github.com/Otabek996/homerun_website"
+            linkToCode="https://github.com/Otabek996/responsive-homerun-website"
           />
 
           <Card
@@ -34,11 +35,19 @@ const Works = () => {
           />
 
           <Card
+            img={TO}
+            title="TO"
+            description="👨‍💻 My personal portfolio website using React, CSS & HTML."
+            linkToWebsite="https://aesthetic-bublanina-a56d3d.netlify.app/"
+            linkToCode="https://github.com/Otabek996/responsive-to-website"
+          />
+
+          <Card
             img={LOGOIPSUM}
             title="Logoipsun"
-            description="Website using HTML & CSS."
-            linkToWebsite=""
-            linkToCode="https://github.com/Otabek996/logoIpsum-Web"
+            description="Landing website using HTML & CSS."
+            linkToWebsite="https://charming-taffy-4041d1.netlify.app/"
+            linkToCode="https://github.com/Otabek996/logoipsum-website"
           />
         </div>
       </div>
