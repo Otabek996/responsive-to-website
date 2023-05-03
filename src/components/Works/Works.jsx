@@ -20,7 +20,7 @@ const Works = () => {
           <Card
             img={HOMERUN}
             title="Homerun"
-            description="Homerun website"
+            description="Responsive website using HTML CSS Sass & Bootstrap."
             linkToWebsite="https://incomparable-khapse-0462f1.netlify.app/"
             linkToCode="https://github.com/Otabek996/homerun_website"
           />
@@ -28,7 +28,7 @@ const Works = () => {
           <Card
             img={INSTABOTS}
             title="Instabots"
-            description="Instabots website"
+            description="Responsive website using HTML CSS & JavaScript."
             linkToWebsite="https://ephemeral-cucurucho-18cc79.netlify.app/"
             linkToCode="https://github.com/Otabek996/responsive-instabots-website"
           />
@@ -36,7 +36,7 @@ const Works = () => {
           <Card
             img={LOGOIPSUM}
             title="Logoipsun"
-            description="Logoipsun website"
+            description="Website using HTML & CSS."
             linkToWebsite=""
             linkToCode="https://github.com/Otabek996/logoIpsum-Web"
           />
