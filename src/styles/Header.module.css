@@ -94,3 +94,10 @@
         display: inline-block;
     }
 }
+
+/* For small devices */
+@media screen and (max-width: 440px) {
+    .nav__toggle {
+        text-align: center;
+    }
+}
