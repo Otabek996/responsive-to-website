@@ -52,3 +52,16 @@ ul, li {
         width: 90%;
     }
 }
+
+/* For large devices */
+@media screen and (max-width: 768px) {
+    .app {
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .app {
+        padding: 1.5rem 0;
+    }
+}
