@@ -5,6 +5,7 @@ import styles from '../../styles/Header.module.css';
 
 import { ROUTES } from "../../utils/routes";
 import { useTheme } from "../../utils/use-theme";
+import { useToggle } from "../../utils/toggleHook";
 
 import CLOSE from "../../images/close-line.svg";
 import OPEN from "../../images/menu-line.svg";
@@ -23,62 +24,72 @@ const Header = () => {
     themeIcon = "moon";
   } else themeIcon = "sun";
 
+  // Show Menu
+  const [toggle, setToggle] = useToggle();
+
   return (
     <header className={styles.header}>
-      <nav className={styles.nav}>
-        <div className={styles.nav__left}>
-          <ul className={styles.nav__list}>
-            <li className={styles.nav__item}>
-              <a className={styles.nav__link} href="mailto:otabek996996@gmail.com">
-                <i className="ri-mail-fill"></i>
-                <span className={styles.nav__email}>otabek996996@gmail.com</span>
-                <span className={styles.nav__email_text}>Email</span>
-              </a>
-            </li>
+      {toggle && (
+        <nav className={styles.nav}>
+          <div className={styles.nav__left}>
+            <ul className={styles.nav__list}>
+              <li className={styles.nav__item}>
+                <a className={styles.nav__link} href="mailto:otabek996996@gmail.com">
+                  <i className="ri-mail-fill"></i>
+                  <span className={styles.nav__email}>otabek996996@gmail.com</span>
+                  <span className={styles.nav__email_text}>Email</span>
+                </a>
+              </li>
 
-            <li className={styles.nav__item}>
-              <button 
-                className={styles.theme_toggle}
-                id='theme-toggle'
-                type='button'
-                title='Change theme'
-                onClick={changeTheme}
-              >
-                <span>
-                  <i className={`ri-${themeIcon}-fill`} id="theme-icon"></i>
-                </span>
-              </button>
-            </li>
-          </ul>
-        </div>
+              <li className={styles.nav__item}>
+                <button 
+                  className={styles.theme_toggle}
+                  id='theme-toggle'
+                  type='button'
+                  title='Change theme'
+                  onClick={changeTheme}
+                >
+                  <span>
+                    <i className={`ri-${themeIcon}-fill`} id="theme-icon"></i>
+                  </span>
+                </button>
+              </li>
+            </ul>
+          </div>
 
-        <div className={styles.nav__right}>
-          <ul className={styles.nav__list}>
-            <li className={styles.nav__item}>
-              <Link className={styles.nav__link} to={ROUTES.WORKS}>
-                <i className="ri-file-line"></i>
-                <span>Works</span>
-              </Link>
-            </li>
+          <div className={styles.nav__right}>
+            <ul className={styles.nav__list}>
+              <li className={styles.nav__item}>
+                <Link className={styles.nav__link} to={ROUTES.WORKS}>
+                  <i className="ri-file-line"></i>
+                  <span>Works</span>
+                </Link>
+              </li>
 
-            <li className={styles.nav__item}>
-              <Link className={styles.nav__link} to={ROUTES.RESUME}>
-                <i className="ri-user-3-fill"></i>
-                <span>Resume</span>
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </nav>
+              <li className={styles.nav__item}>
+                <Link className={styles.nav__link} to={ROUTES.RESUME}>
+                  <i className="ri-user-3-fill"></i>
+                  <span>Resume</span>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      )}
 
-      <div className={styles.nav__toggle} id='nav__toggle'>
+      <button 
+        className={styles.nav__toggle} 
+        id='nav__toggle'
+        type='button'
+        onClick={setToggle}
+      >
         <span>
           <img className={styles.nav_close} src={CLOSE} alt="Close menu" />
         </span>
         <span>
           <img src={OPEN} alt="Open menu" />
         </span>
-      </div>
+      </button>
     </header>
   )
 };
