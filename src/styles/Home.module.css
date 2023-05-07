@@ -5,6 +5,10 @@
     margin-top: 2.5rem;
 }
 
+.home__data {
+    width: 30%;
+}
+
 .home__title {
     font-size: var(--font-size-biggest);
     line-height: var(--line-height-biggest);
@@ -32,5 +36,23 @@
 }
 
 .home__img {
+    width: 50%;
     margin: 0 auto;
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .home__container {
+        flex-direction: column;
+    }
+    
+    .home__data {
+        width: 100%;
+        text-align: center;
+    }
+
+    .home__img {
+        width: 100%;
+    }
 }

@@ -44,3 +44,11 @@ ul, li {
 .main {
     width: 100%;
 }
+
+/*=============== MEDIA QUERIES ===============*/
+/* For large devices */
+@media screen and (max-width: 1215px) {
+    .app__container {
+        width: 90%;
+    }
+}

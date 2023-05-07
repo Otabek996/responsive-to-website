@@ -33,7 +33,7 @@ const Home = () => {
 
           <p className={styles.home__description}>
             <span><img src="https://raw.githubusercontent.com/MartinHeinz/MartinHeinz/master/wave.gif" alt='Wave'/></span>
-            <span>Hello, I am a front-end <br/> Developer 🧑‍💻 from Tashkent, <br/> Uzbekistan.</span>
+            <span>Hello, I am a front-end Developer 🧑‍💻 from Tashkent, Uzbekistan.</span>
           </p>
         </div>
 
