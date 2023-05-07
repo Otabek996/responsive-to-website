@@ -26,9 +26,10 @@ const Header = () => {
         <div className={styles.nav__left}>
           <ul className={styles.nav__list}>
             <li className={styles.nav__item}>
-              <a className={styles.nav__link} href="mailto:otabek996@gmail.com">
+              <a className={styles.nav__link} href="mailto:otabek996996@gmail.com">
                 <i className="ri-mail-fill"></i>
-                <span>otabek996996@gmail.com</span>
+                <span className={styles.nav__email}>otabek996996@gmail.com</span>
+                <span className={styles.nav__email_text}>Email</span>
               </a>
             </li>
 

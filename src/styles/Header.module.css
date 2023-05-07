@@ -36,6 +36,10 @@
     box-shadow: 0 1rem 2rem rgba(43, 41, 41, .4);
 }
 
+.nav__email_text {
+    display: none;
+}
+
 .theme_toggle {
     font-size: var(--font-size-big);
     padding: 2px 3px 1px 3px;
@@ -50,4 +54,16 @@
     color: var(--text-color);
     vertical-align: -0.125em;
     transition: all 0.2s ease-in;
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For medium devices */
+@media screen and (max-width: 768px) {
+    .nav__email {
+        display: none;
+    }
+
+    .nav__email_text {
+        display: inline-block;
+    }
 }
