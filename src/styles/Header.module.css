@@ -56,6 +56,22 @@
     transition: all 0.2s ease-in;
 }
 
+.nav__toggle {
+    display: none;
+    cursor: pointer;
+    width: 100%;
+    text-align: end;
+}
+
+.nav__toggle span img {
+    width: 22px;
+    height: 22px;
+}
+
+.nav_close {
+    display: none;
+}
+
 /*=============== MEDIA QUERIES ===============*/
 /* For medium devices */
 @media screen and (max-width: 768px) {
@@ -64,6 +80,17 @@
     }
 
     .nav__email_text {
+        display: inline-block;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .nav {
+        display: none;
+        flex-direction: column;
+    }
+
+    .nav__toggle {
         display: inline-block;
     }
 }

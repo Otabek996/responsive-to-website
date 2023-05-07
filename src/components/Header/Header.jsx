@@ -6,6 +6,9 @@ import styles from '../../styles/Header.module.css';
 import { ROUTES } from "../../utils/routes";
 import { useTheme } from "../../utils/use-theme";
 
+import CLOSE from "../../images/close-line.svg";
+import OPEN from "../../images/menu-line.svg";
+
 const Header = () => {
   // Theme Change
   const { theme, setTheme } = useTheme();
@@ -67,6 +70,15 @@ const Header = () => {
           </ul>
         </div>
       </nav>
+
+      <div className={styles.nav__toggle} id='nav__toggle'>
+        <span>
+          <img className={styles.nav_close} src={CLOSE} alt="Close menu" />
+        </span>
+        <span>
+          <img src={OPEN} alt="Open menu" />
+        </span>
+      </div>
     </header>
   )
 };
