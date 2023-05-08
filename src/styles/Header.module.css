@@ -56,20 +56,21 @@
     transition: all 0.2s ease-in;
 }
 
-.nav__toggle {
-    display: none;
-    cursor: pointer;
+.menu {
     width: 100%;
     text-align: end;
 }
 
-.nav__toggle span img {
-    width: 22px;
-    height: 22px;
+.nav__toggle {
+    display: none;
+    background: transparent;
+    border: none;
 }
 
-.nav_close {
-    display: none;
+.nav__toggle span i {
+    font-size: 22px;
+    color: var(--text-color);
+    transition: all 0.3s ease-in;
 }
 
 /*=============== MEDIA QUERIES ===============*/
@@ -93,20 +94,26 @@
         width: 100%;
         height: auto;
         position: absolute;
-        /* display: none; */
+        top: 40px;
+        left: -150%;
         flex-direction: column;
-        gap: 3rem;
+        gap: 4rem;
         background: var(--menu-color);
-        /* filter: blur(50%); */
-        padding: 50px 0;
+        backdrop-filter: blur(30px);
+        padding: 40% 0;
         border-radius: 20px;
-        z-index: 0;
+        transition: left 0.3s ease-in;
+        z-index: 1;
+    }
+
+    .active {
+        left: 0;
     }
 
     .nav__list {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 4rem;
     }
 
     .nav__left .nav__list .nav__item {
