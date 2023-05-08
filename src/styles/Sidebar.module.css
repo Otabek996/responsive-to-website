@@ -48,6 +48,25 @@
 /* For small devices */
 @media screen and (max-width: 440px) {
     .sidebar {
-        display: none;
+        order: 2;
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .sidebar__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social__networks {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-top: 0;
+    }
+
+    .network__box {
+        margin-bottom: 0;
     }
 }
