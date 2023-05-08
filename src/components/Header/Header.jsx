@@ -79,10 +79,10 @@ const Header = () => {
         >
           {navbar ? 
             <span>
-              <i class="ri-close-line"></i>
+              <i className="ri-close-line"></i>
             </span> : 
             <span>
-              <i class="ri-menu-line"></i>
+              <i className="ri-menu-line"></i>
             </span>
           }
         </button>
