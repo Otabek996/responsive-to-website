@@ -86,3 +86,30 @@
         border-left: 1px solid var(--border-color);
     }
 }
+
+/* For small devices */
+@media screen and (max-width: 375px) {
+    .card__info {
+        padding: 1rem;
+    }
+
+    .card__title {
+        font-size: 20px;
+        margin-bottom: 0.525rem;
+    }
+
+    .card__description {
+        font-size: 13px;
+        padding: 0.525rem 0;
+    }
+
+    .card__btn {
+        gap: 1rem;
+        margin-top: 0.7375rem;
+    }
+
+    .card__btn_link {
+        font-size: 0.8375rem;
+        line-height: 1.05rem;
+    }
+}
