@@ -28,12 +28,17 @@
     margin-bottom: 2.5rem;
 }
 
+.techs {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+    flex-wrap: wrap;
+}
+
 .tech {
     width: 4rem;
     display: inline-block;
     text-align: center;
-    margin-right: 1.5625rem;
-    margin-bottom: 0.5rem;
 }
 
 .tech__img {
@@ -68,7 +73,8 @@
     background: var(--hover-color);
 }
 
-.btn__cv a {
+.btn__cv a,
+.btn__cv_icon {
     font-size: var(--font-size-small);
     line-height: var(--line-height-small);
     font-weight: var(--font-regular);
@@ -76,9 +82,38 @@
 }
 
 .btn__cv_icon {
-    font-size: var(--font-size-small);
-    line-height: var(--line-height-small);
-    font-weight: var(--font-regular);
-    color: var(--text-color);
     margin-left: 5px;
+}
+
+/*=============== MEDIA QUERIES ===============*/
+/* For small devices */
+@media screen and (max-width: 375px) {
+    .resume__title {
+        font-size: 1.3rem;
+    }
+    
+    .border {
+        margin: 0.8rem 0 1.5rem 0;
+    }
+
+    .tech__box {
+        margin-top: 1rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .tech__box_title {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        margin-bottom: 1.8rem;
+    }
+
+    .tech {
+        width: 3rem;
+    }
+
+    .btn__cv a,
+    .btn__cv_icon {
+        font-size: 0.8375rem;
+        line-height: 1.05rem;
+    }
 }
