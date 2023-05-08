@@ -20,7 +20,7 @@ const Resume = () => {
               {techs.map((tech) => (
                 <div className={styles.tech} key={tech.id}>
                   <span title={tech.text}>
-                    <img className={styles.tech__img} src={tech.img} alt={tech.text} />
+                    <img className={styles.tech__img} src={tech.img} alt={tech.text}  decoding='async' />
                   </span>
                 </div>
               ))}

@@ -5,7 +5,7 @@ import styles from '../../styles/Card.module.css';
 const Card = (props) => {
   return (
     <article className={styles.card}>
-        <img className={styles.card__img} src={props.img} alt="websites" />
+        <img className={styles.card__img} src={props.img} alt="Photos of websites" decoding='async' />
 
         <div className={styles.card__info}>
             <h2 className={styles.card__title}>{props.title}</h2>
