@@ -56,3 +56,15 @@
         width: 100%;
     }
 }
+
+/* For small devices */
+@media screen and (max-width: 375px) {
+    .home__title {
+        font-size: 2.4rem;
+        line-height: 3.175rem;
+    }
+
+    .home__description {
+        margin-top: 2rem;
+    }
+}

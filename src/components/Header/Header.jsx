@@ -31,7 +31,7 @@ const Header = () => {
         <div className={styles.nav__left}>
           <ul className={styles.nav__list}>
             <li className={styles.nav__item}>
-              <a className={styles.nav__link} href="mailto:otabek996996@gmail.com">
+              <a className={styles.nav__link} href="mailto:otabek996996@gmail.com" onClick={() => setNavbar(!navbar)}>
                 <i className="ri-mail-fill"></i>
                 <span className={styles.nav__email}>otabek996996@gmail.com</span>
                 <span className={styles.nav__email_text}>Email</span>
@@ -55,13 +55,13 @@ const Header = () => {
         <div className={styles.nav__right}>
           <ul className={styles.nav__list}>
             <li className={styles.nav__item}>
-              <Link className={styles.nav__link} to={ROUTES.WORKS}>
+              <Link className={styles.nav__link} to={ROUTES.WORKS} onClick={() => setNavbar(!navbar)}>
                 <i className="ri-file-line"></i>
                 <span>Works</span>
               </Link>
             </li>
             <li className={styles.nav__item}>
-              <Link className={styles.nav__link} to={ROUTES.RESUME}>
+              <Link className={styles.nav__link} to={ROUTES.RESUME} onClick={() => setNavbar(!navbar)}>
                 <i className="ri-user-3-fill"></i>
                 <span>Resume</span>
               </Link>

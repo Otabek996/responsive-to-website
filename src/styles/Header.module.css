@@ -141,3 +141,11 @@
         text-align: center;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .nav__link,
+    .nav__link i {
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+    }
+}
