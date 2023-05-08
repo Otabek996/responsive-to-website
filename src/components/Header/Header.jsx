@@ -5,7 +5,6 @@ import styles from '../../styles/Header.module.css';
 
 import { ROUTES } from "../../utils/routes";
 import { useTheme } from "../../utils/use-theme";
-import { useToggle } from "../../utils/toggleHook";
 
 import CLOSE from "../../images/close-line.svg";
 import OPEN from "../../images/menu-line.svg";
@@ -25,11 +24,9 @@ const Header = () => {
   } else themeIcon = "sun";
 
   // Show Menu
-  const [toggle, setToggle] = useToggle();
 
   return (
     <header className={styles.header}>
-      {toggle && (
         <nav className={styles.nav}>
           <div className={styles.nav__left}>
             <ul className={styles.nav__list}>
@@ -75,13 +72,11 @@ const Header = () => {
             </ul>
           </div>
         </nav>
-      )}
 
       <button 
         className={styles.nav__toggle} 
         id='nav__toggle'
         type='button'
-        onClick={setToggle}
       >
         <span>
           <img className={styles.nav_close} src={CLOSE} alt="Close menu" />
