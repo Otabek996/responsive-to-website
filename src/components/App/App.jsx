@@ -3,6 +3,7 @@ import React from "react";
 import AppRoutes from "../Routes/Routes";
 import Header from "../Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
+import Home from "../Home/Home";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
 
         <main className="main">
           <Header />
+          <Home />
           <AppRoutes />
         </main>  
       </div>
