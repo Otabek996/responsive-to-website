@@ -5,6 +5,7 @@ import SASS from '../images/sass.png';
 import BOOTSTRAP from '../images/bootstrap.png';
 import JS from '../images/js.png';
 import REACT from '../images/react.png';
+import VUE from '../images/vue.png';
 import TYPESCRIPT from '../images/typescript.svg';
 import NEXTJS from '../images/next-js.svg';
 import GITHUB from '../images/github.svg';
@@ -53,6 +54,11 @@ export const techs = [
         id: 8,
         text: 'typescript',
         img: TYPESCRIPT
+    },
+    {
+        id: 9,
+        text: 'vue',
+        img: VUE
     },
 ]
 

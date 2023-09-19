@@ -3,7 +3,6 @@ import React from "react";
 import AppRoutes from "../Routes/Routes";
 import Header from "../Header/Header";
 import Sidebar from "../Sidebar/Sidebar";
-import Home from "../Home/Home";
 
 const App = () => {
   return (
