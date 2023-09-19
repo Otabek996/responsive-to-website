@@ -2,8 +2,8 @@
 
 ## 🏗 Building Materials
 
-| React | CSS | HTML |
-| :---: | :-: | :--: |
+| HTML | CSS | React |
+| :--: | :-: | :---: |
 
 ## ⚙️ Features
 - React site
@@ -12,6 +12,6 @@
 - Responsive design
 - Social media and messanger buttons
 - Resume
-- Portfolio
+- [Portfolio](https://otabek996.github.io/responsive-to-website/)
 
 ![to](https://github.com/Otabek996/responsive-to-website/blob/main/src/images/to-website.png)
