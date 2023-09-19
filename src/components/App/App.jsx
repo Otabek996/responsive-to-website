@@ -13,7 +13,6 @@ const App = () => {
 
         <main className="main">
           <Header />
-          <Home />
           <AppRoutes />
         </main>  
       </div>
