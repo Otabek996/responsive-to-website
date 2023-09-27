@@ -46,7 +46,7 @@ const Resume = () => {
 
         <div className={styles.resume__section}>
           <button className={styles.btn__cv} type='button'>
-            <a href="https://tashkent.hh.uz/applicant/resumes/view?resume=307c12b9ff0ba58d670039ed1f725553324846" target='_blank' rel="noreferrer">
+            <a href="https://resume.io/r/fzRYXxo0M" target='_blank' rel="noreferrer">
               <span>CV</span>
               <span className={styles.btn__cv_icon}><i className="ri-arrow-right-up-line"></i></span>
             </a>
