@@ -38,7 +38,7 @@ const Works = () => {
             img={TO}
             title="TO"
             description="👨‍💻 My personal portfolio website using React, CSS & HTML."
-            linkToWebsite="https://aesthetic-bublanina-a56d3d.netlify.app/"
+            linkToWebsite="https://otabek996.github.io/responsive-to-website/"
             linkToCode="https://github.com/Otabek996/responsive-to-website"
           />
 
