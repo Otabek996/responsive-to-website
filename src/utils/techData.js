@@ -8,6 +8,7 @@ import JS from '../images/js.png';
 import VUE from '../images/vue.png';
 // import TYPESCRIPT from '../images/typescript.svg';
 // import NEXTJS from '../images/next-js.svg';
+import POSTGRES from '../images/postgresql.svg';
 import GITHUB from '../images/github.svg';
 import GITLAB from '../images/gitlab.svg';
 import GIT from '../images/git.png';
@@ -41,6 +42,10 @@ export const techs = [
     {
         text: 'vue',
         img: VUE
+    },
+    {
+        text: 'postgres',
+        img: POSTGRES
     },
 ]
 
