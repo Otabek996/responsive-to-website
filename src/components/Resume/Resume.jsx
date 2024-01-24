@@ -18,7 +18,7 @@ const Resume = () => {
 
             <div className={styles.techs}>
               {techs.map((tech) => (
-                <div className={styles.tech} key={tech.id}>
+                <div className={styles.tech} key={techs.indexOf(tech)}>
                   <span title={tech.text}>
                     <img className={styles.tech__img} src={tech.img} alt={tech.text}  decoding='async' />
                   </span>
@@ -32,7 +32,7 @@ const Resume = () => {
 
             <div className={styles.techs}>
               {othersTechs.map((otherTech) => (
-                <div className={styles.tech} key={otherTech.id}>
+                <div className={styles.tech} key={othersTechs.indexOf(otherTech)}>
                   <span title={otherTech.text}>
                     <img className={styles.tech__img} src={otherTech.img} alt={otherTech.text} />
                   </span>
